@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "FisioAutomatizacion API online 🚀"}
+    return {"message": "FisioAutomatizacion API online 🚀 (v2)"}
 
 @app.get("/extraer-citas")
 def extraer_citas():
